@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:ems="10"
-        android:hint="enter your DOB"
+        android:hint="@string/hint_your_dob"
         android:inputType="number"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="Your age show here"
+        android:text="@string/txt_your_age_place"
         android:textSize="22sp"
         android:textColor="@color/buShows"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,10 +43,11 @@
         android:layout_marginTop="56dp"
         android:background="@color/colorAccent"
         android:onClick="BuClickEvent"
-        android:text="Get My Age"
+        android:text="@string/txt_get_my_age"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvShowAge" />
+
 </android.support.constraint.ConstraintLayout>

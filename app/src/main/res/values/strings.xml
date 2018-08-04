@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StartUp</string>
+    <string name="hint_your_dob">enter your DOB</string>
+    <string name="txt_your_age_place">Your age come here</string>
+    <string name="txt_get_my_age">Get My Age</string>
+    <string name="txt_your_age">"Your age is "</string>
 </resources>
